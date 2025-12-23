@@ -1,10 +1,19 @@
 .navbar{
+    background-color: #1e29ad;
     font-weight: 500;
-    padding: 20px;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border: none;
 }
 .left-section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-container{
     display: flex;
     align-items: center;
 }
@@ -29,5 +38,29 @@ ul{
 
 .right-section{
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.search-box{
+
+    background-color: #162677;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.search-box input{
+    background-color: transparent;
+    border: none;
+}
+
+.search-box input::placeholder{
+    color: white;
+}
+
+.profile-icon{
+    font-size: 35px;
 }
